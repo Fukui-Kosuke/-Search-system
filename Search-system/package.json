@@ -1,0 +1,17 @@
+{
+  "name": "qa1",
+  "version": "1.0.0",
+  "main": "age.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^6.5.0",
+    "d3-dtree": "^2.4.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "description": ""
+}

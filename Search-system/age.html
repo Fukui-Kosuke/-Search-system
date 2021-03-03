@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>age</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="age.js"></script>
+  <script type="text/javascript" src="sparql.js" charset="UTF-8"></script>
+</head>
+
+<body>
+<h1>ある時代に生まれた人物一覧</h1>
+<h2>時代を選択してください</h2>
+<form name="form2">
+  <select id="age">
+    <option>選択してください</option>
+    <option value="wd:Q184963">江戸時代</option>
+    <option value="wd:Q189178">奈良時代</option>
+    <option value="wd:Q193292">平安時代</option>
+    <option value="wd:Q204023">戦国時代</option>
+    <option value="wd:Q210688">飛鳥時代</option>
+    <option value="wd:Q236205">鎌倉時代</option>
+    <option value="wd:Q264012">南北朝時代</option>
+    <option value="wd:Q319531">安土桃山時代</option>
+    <option value="wd:Q334845">室町時代</option>
+    <option value="wd:Q459939">古墳時代</option>
+    <option value="wd:Q826021">建武の新政</option>
+    <option value="wd:Q3125096">明治</option>
+    <option value="wd:Q329174">大正</option>
+    <option value="wd:Q327567">昭和</option> 
+    <option value="wd:Q234510">平成</option>
+    <option value="wd:Q62609017">令和</option>
+  </select>
+</form>
+<form name="form3">
+  <select id="limit">
+    <option>選択してください</option>
+    <option value="10">10</option>
+    <option value="100">100</option>
+    <option value="200">200</option>
+  </select>
+</form>
+      <input type="button" id="enter" value="実行"/>
+      <input type="reset" value="リセット">
+<div id="result_div" class="table_parent"></div>
+
+<input type="button" onclick="window.history.back();" value="ホームに戻る">
+
+</body>
+</html>

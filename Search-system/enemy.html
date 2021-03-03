@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>enemy</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.12.4.min.js"></script>
+  <script src="enemy.js"></script>
+  <script type="text/javascript" src="sparql.js" charset="UTF-8"></script>
+</head>
+
+<body>
+<h1>敵検索</h1>
+<h2>誰の敵が知りたいですか</h2>
+<form id="form1" action="#">
+  <input type="text" id="input_message" value="">
+			<input type="button" id="enter" value="実行"/>
+      <input type="reset" value="リセット">
+</form>
+
+<div id="result_div" class="table_parent">
+</div>
+
+<input type="button" onclick="window.history.back();" value="ホームに戻る">
+
+</body>
+</html>
