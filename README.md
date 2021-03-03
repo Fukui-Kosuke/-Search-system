@@ -16,7 +16,9 @@
 # ライブラリ
 
 * jquery-1.12.4.min
+* sparql.js
 
+sparql.jsは御教授いただいた先生からいただいたプログラムファイルです。
 .jsファイルで、エンドポイントの[https://query.wikidata.org/sparql](https://query.wikidata.org/sparql)を宣言しています。
 
 # インストール
